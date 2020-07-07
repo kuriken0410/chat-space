@@ -1,5 +1,4 @@
 # README
-
 # DB設計(entity)
 ## usersテーブル
 |Column|Type|Options|
