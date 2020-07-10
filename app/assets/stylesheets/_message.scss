@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}  
+.Side {
+  width: 300px;
+  background-color: #253141;
+  &__header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+    &__header_form {
+      height: 20px;
+      width: 260px;
+      margin: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #253141;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+      &__icon {
+      width: 60px;
+      display: flex;
+      justify-content: flex-end;
+      }
+        &__btn {
+        padding-left: 5px;
+        color: #ffffff;
+        }
+  &__groups {
+    height: calc(100vh - 100px);
+    background-color: #2f3e51;
+  }
+    &__group {
+      padding: 20px 20px 40px;
+      color: #ffffff;
+    }
+      &__group_name {
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+      &__message {
+        font-size: 11px;
+      }
+}
+.Main {
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background-color: #ffffff;
+  &__info {
+    height: 100px;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #ffffff;
+  }
+    &__group_info {
+      padding: 0px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+      &__group {
+        padding: 35px 0 15px;
+        color: #333333;
+        font-size: 20px;
+      }
+        .Editlink {
+          line-height: 40px;
+          padding: 0 20px ;
+          margin-top: 28px;
+          border: 1px solid #38aef0;
+          display: block;
+          color: #38aef0;
+          font-size: 16px;
+          text-decoration: none;
+        }
+    &__members {
+      padding: 0 40px;
+      color: #999999;
+      font-size: 12px;
+    }
+      &__member {
+        display: inline;
+      }
+  &__messages {
+    height: calc(100vh - 100px - 90px);
+    padding: 35px 40px 0;
+    background-color: #fafafa;
+  }
+    &__messagebox {
+      margin-bottom: 46px;
+    }
+      &__message {
+        display: flex;
+      }
+        &__messagebox_name {
+          margin-bottom: 12px;
+          color: #333333;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        &__messagebox_date {
+          padding-left: 10px;
+          color: #999999;
+          font-size: 12px;
+        }
+      &__message_content {
+        color: #434A54;
+        font-size: 14px;
+      }
+  &__forms {
+    height: 90px;
+    padding: 20px 40px 20px 50px;
+    background-color: #d2d2d2;
+  }
+    &__form_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+      &__form_position {
+        width: 100%;
+        position: relative;
+      }
+        &__form_text {
+        height: 50px;
+        width: 100%;
+        padding: 0px 10px;
+        border: none;
+        background-color: #fff;
+        }
+        &__image {
+          height: 50px;
+          position: absolute;
+          right: 10px;
+            i {
+              line-height: 50px;
+              font-size: 25px;
+            }
+            input {
+              display: none;
+            }
+        }
+    &__submit {
+      height: 50px;
+      display: block;
+      padding: 0 30px;
+      margin-left: 15px;
+      border: none;
+      background-color: #38aef0;
+      color: #fff;
+      font-size: 16px;
+    }
+}
