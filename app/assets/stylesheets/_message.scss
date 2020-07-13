@@ -41,15 +41,18 @@
   }
     &__group {
       padding: 20px 20px 40px;
-      color: #ffffff;
-    }
-      &__group_name {
-        margin-bottom: 5px;
-        font-size: 15px;
-      }
-      &__message {
-        font-size: 11px;
-      }
+    }    
+      .Sidelink {
+        color: #ffffff;
+        text-decoration: none;
+      }  
+        &__group_name {
+          margin-bottom: 5px;
+          font-size: 15px;
+        }
+        &__message {
+          font-size: 11px;
+        }
 }
 .Main {
   width: calc(100vw - 300px);
