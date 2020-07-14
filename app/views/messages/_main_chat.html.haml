@@ -2,46 +2,21 @@
   .Main__info
     .Main__group_info
       .Main__group
-        test
+        = @group.name
       .Main__edit
         = link_to 'Edit', edit_group_path(current_user), class: "Editlink" 
     %ul.Main__members
       Member : 
       %li.Main__member 
-        masa
-  .Main__messages
-    .Main__messagebox
-      .Main__message
-        .Main__messagebox_name
-          masa
-        .Main__messagebox_date
-          2020年7月10日 17時30分
-      .Main__message_content
-        おはよう！
-    .Main__messagebox
-      .Main__message
-        .Main__messagebox_name
-          masa
-        .Main__messagebox_date
-          2020年7月10日 17時30分
-      .Main__message_content
-        おはよう！
-    .Main__messagebox
-      .Main__message
-        .Main__messagebox_name
-          masa
-        .Main__messagebox_date
-          2020年7月10日 17時30分
-      .Main__message_content
-        おはよう！
-        
-  .Main__forms
-    .Main__form_box
-      .Main__form_position
-        .Main__form_content
-          %input.Main__form_text{"placeholder": "type a message", "type": "text"}
-          %label.Main__image
-            %i.far.fa-image
-            %input.Main__form_file{type: "file"}
-      .Main__submit_box      
-        %input.Main__submit{"name": "commit", "type": "submit", "value": "Send"}
+        - @group.users.each do |user|
+          = user.name
+  .MessageField
+    = render @messages        
+  .Main__footer
+    = form_with model: [@group, @message], html: {class: "Form"}, local: true do |f|
+      .Form__contents
+        = f.text_field :content, class: 'Form__inputContent', placeholder: 'type a message'
+        = f.label :image, class: 'Form__inputImage' do
+          = icon('far', 'image', class: 'Form__icon')
+          = f.file_field :image, class: 'Hidden'
+      = f.submit 'Send', class: 'Form__submit'
