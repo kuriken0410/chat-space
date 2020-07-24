@@ -4,7 +4,7 @@
       .Main__group
         = @group.name
       .Main__edit
-        = link_to 'Edit', edit_group_path(current_user), class: "Editlink" 
+        = link_to 'Edit', edit_group_path(@group), class: "Editlink" 
     %ul.Main__members
       Member : 
       %li.Main__member 
