@@ -1,12 +1,12 @@
 # グループチャットアプリchat-space
-## chat-spaceとは
+## :globe_with_meridians: chat-spaceとは
 - chat-spaceはグループチャットアプリです。
 - 画像とテキストの投稿ができます。
 - グループに登録したメンバーのみがチャットを閲覧できます。
 
 ![ChatSpace](https://gyazo.com/725d93c9a09f600d3b73124824b88470.png)
 
-## 使い方
+## :globe_with_meridians: 使い方
 初めにユーザー登録をしてください。
 ![ChatSpace - Gyazo](https://gyazo.com/f539e78bed2a165f5136f8b5d09d7e26.png)
 
@@ -23,7 +23,7 @@
 グループメンバーのチャットは自動的に同期されます。
 ![キャプチャ動画](https://gyazo.com/68d10bbaece880b07dd3e5e8fe990ecb.gif)
 
-## 使用した技術、言語、ツールなど
+## :globe_with_meridians: 使用した技術、言語、ツールなど
 <a><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" width="70px;" /></a> <!-- rubyのロゴ -->
 <a><img src="https://user-images.githubusercontent.com/39142850/71774548-731b2900-2fb4-11ea-99ba-565546c5acb4.png" height="60px;" /></a> <!-- RubyOnRailsのロゴ -->
 <a><img src="https://user-images.githubusercontent.com/39142850/71774618-b32edb80-2fb5-11ea-9050-d5929a49e9a5.png" height="60px;" /></a> <!-- Hamlのロゴ -->
