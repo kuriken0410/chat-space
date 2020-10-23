@@ -41,7 +41,7 @@
 - アプリケーションサーバー: unicorn
 - データベース: MySQL
 
-## 実装内容
+## :globe_with_meridians: 実装内容
 - HAMLとSASSでのフロント実装
 - jQueryによるメッセージの非同期通信
 - jQueryによるインクリメンタルサーチ機能
@@ -50,7 +50,7 @@
 - fogによるAWS S3への画像のアップロード
 - capistranoによる自動デプロイ
 
-## chatspaceのデータベース設計
+## :globe_with_meridians: chatspaceのデータベース設計
 ### messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
