@@ -71,7 +71,7 @@
 `$ rails s`<br>
 :point_right:`http://localhost:3000`
 
-## :globe_with_meridians: chatspaceのデータベース設計
+## :globe_with_meridians: chat-spaceのデータベース設計
 ### messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
