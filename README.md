@@ -50,6 +50,29 @@
 - fogによるAWS S3への画像のアップロード
 - capistranoによる自動デプロイ
 
+## :globe_with_meridians: インストール方法
+1.このリポジトリを複製<br>
+`$ git clone https://github.com/kuriken0410/chat-space`
+
+2.インストールしたリポジトリに移動<br>
+`$ cd chat-space.git`
+
+3.gemをアプリケーションに適用<br>
+`$ bundle install`<br>
+
+4.DBの作成&反映<br>
+`$ rails db:create`<br>
+`$ rails db:migrate`<br>
+
+5.カテゴリ一覧の反映<br>
+`$ rails db:seed`<br>
+
+6.アプリケーションの起動<br>
+`$ rails s`<br>
+:point_right:`http://localhost:3000`
+
+# :page_facing_up: DB設計
+
 ## :globe_with_meridians: chatspaceのデータベース設計
 ### messagesテーブル
 |Column|Type|Options|
