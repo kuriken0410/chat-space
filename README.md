@@ -34,7 +34,7 @@
 - 言語
     - サーバーサイド: Ruby
     - フロント: SASS, HTML (HAML), JavaScript (jQuery)
-- アプリケーションフレームワーク: Ruby on rails
+- アプリケーションフレームワーク: Ruby on Rails
 - インフラ: AWS(EC2, S3)
 - ソースコード管理: Github
 - 自動デプロイツール: capistrano
