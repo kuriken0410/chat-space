@@ -31,17 +31,38 @@
 <a><<img src="https://user-images.githubusercontent.com/39142850/71774644-115bbe80-2fb6-11ea-822c-568eabde5228.png" height="60px" /></a> <!-- Scssのロゴ -->
 <a><img src="https://user-images.githubusercontent.com/39142850/71774768-d064a980-2fb7-11ea-88ad-4562c59470ae.png" height="65px;" /></a> <!-- jQueryのロゴ -->
 <a><img src="https://user-images.githubusercontent.com/39142850/71774786-37825e00-2fb8-11ea-8b90-bd652a58f1ad.png" height="60px;" /></a> <!-- AWSのロゴ -->
-- 言語
-    - サーバーサイド: Ruby
-    - フロント: SASS, HTML (HAML), JavaScript (jQuery)
-- アプリケーションフレームワーク: Ruby on Rails
-- インフラ: AWS(EC2, S3)
-- ソースコード管理: Github
-- 自動デプロイツール: capistrano
-- webサーバー: nginx
-- アプリケーションサーバー: unicorn
-- データベース: MySQL
-- コードレビューツール: Sider　Rubocop
+### ■ 言語
+
+#### バックエンド
+* Ruby 2.6.5
+
+#### フロントエンド
+* Haml 5.1.2
+* Sass 3.7.4
+* jquery-rails 4.4.0
+
+### ■ フレームワーク
+* Ruby on Rails 6.0.3.2
+
+### ■ データベース
+* MySQL 0.5.3
+
+### ■ インフラ
+* AWS EC2
+* AWS S3
+
+### ■ デプロイ
+* capistranoによる自動デプロイ
+
+### ■ Webサーバー
+* nginx
+
+### ■ アプリケーションサーバー
+* unicorn
+
+### ■ コードレビューツール
+* Sider
+* Rubocop 0.92.0
 
 ## :globe_with_meridians: 実装内容
 - HAMLとSASSでのフロント実装
