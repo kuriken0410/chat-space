@@ -41,6 +41,7 @@
 - webサーバー: nginx
 - アプリケーションサーバー: unicorn
 - データベース: MySQL
+- コードレビューツール: Sider　Rubocop
 
 ## :globe_with_meridians: 実装内容
 - HAMLとSASSでのフロント実装
