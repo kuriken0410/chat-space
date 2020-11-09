@@ -70,7 +70,7 @@
 `$ rails s`<br>
 :point_right:`http://localhost:3000`
 
-## :globe_with_meridians: データベース設計
+## :page_facing_up: データベース設計
 ### messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
