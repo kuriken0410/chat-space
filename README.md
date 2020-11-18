@@ -1,7 +1,7 @@
 <h1 align="center">グループチャットアプリケーション（chat-space）</h1>
 
 ## :globe_with_meridians: chat-spaceとは
-- chat-spaceはグループチャットアプリです。
+- chat-spaceはグループチャットアプリケーションです。
 - 画像とテキストの投稿ができます。
 - グループに登録したメンバーのみがチャットを閲覧できます。
 
