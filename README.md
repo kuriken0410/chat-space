@@ -7,6 +7,15 @@
 
 ![ChatSpace](https://gyazo.com/725d93c9a09f600d3b73124824b88470.png)
 
+## :globe_with_meridians: 実装内容
+- HAMLとSASSでのフロント実装
+- jQueryによるメッセージの非同期通信
+- jQueryによるインクリメンタルサーチ機能
+- devise (認証用gem)によるユーザー登録・ログイン機能
+- carrierwaveによる画像のアップロード
+- fogによるAWS S3への画像のアップロード
+- capistranoによる自動デプロイ
+
 ## :globe_with_meridians: 使い方
 初めにユーザー登録をしてください。
 ![ChatSpace - Gyazo](https://gyazo.com/f539e78bed2a165f5136f8b5d09d7e26.png)
@@ -23,15 +32,6 @@
 
 グループメンバーのチャットは自動的に同期されます。
 ![キャプチャ動画](https://gyazo.com/68d10bbaece880b07dd3e5e8fe990ecb.gif)
-
-## :globe_with_meridians: 実装内容
-- HAMLとSASSでのフロント実装
-- jQueryによるメッセージの非同期通信
-- jQueryによるインクリメンタルサーチ機能
-- devise (認証用gem)によるユーザー登録・ログイン機能
-- carrierwaveによる画像のアップロード
-- fogによるAWS S3への画像のアップロード
-- capistranoによる自動デプロイ
 
 ## :globe_with_meridians: 使用した技術、言語、ツールなど
 <a><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" width="70px;" /></a> <!-- rubyのロゴ -->
