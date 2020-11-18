@@ -1,4 +1,4 @@
-<h1 align="center">グループチャットアプリ（chat-space）</h1>
+<h1 align="center">グループチャットアプリケーション（chat-space）</h1>
 
 ## :globe_with_meridians: chat-spaceとは
 - chat-spaceはグループチャットアプリです。
