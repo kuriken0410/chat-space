@@ -61,13 +61,13 @@
 * AWS S3
 
 ### ■ デプロイ
-* capistranoによる自動デプロイ
+* capistrano(3.14.1)による自動デプロイ
 
 ### ■ Webサーバー
 * nginx
 
 ### ■ アプリケーションサーバー
-* unicorn
+* unicorn 5.6.0
 
 ### ■ コードレビューツール
 * Sider
